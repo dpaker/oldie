@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-image: url(images/redblue.jpg);
+} 
+
+.nav {
+    color: #9a7e7e;
+}
+.center {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%; 
+}
+
+.row {
+    
+    padding-top: 10px;
+}
+
+
+.jumbotron {
+    background:rgb(0, 75, 122);
+}
+
+p-2 {
+    color: rgb(69, 99, 118);
+}
+
+.p-2 {
+    
+    color: #f5f5f5
+}
+p {
+    background-color: white;
+    color: rgb(69, 99, 118);
+    padding: 20px;
+}
+
+h3 {
+    color: white;
+}
+.btn {
+    color: #004ba3;
+}
+
+#carouselExampleControls {
+    text-align: center;
+}
+
+.col {
+    background: white;
+}
+
+.blinking{
+    animation:blinkingText 1.5s infinite;
+    
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+h5{
+    color: #6f6f6f;
+}
+
+h4{
+    color: rgb(69, 99, 118);
+}
+.navbar-light .navbar-brand {
+    
+ color: #004ba3;
+}
